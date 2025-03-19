@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "tutorialburritomod:block/sound_block"
+    }
+  }
+}

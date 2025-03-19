@@ -1,6 +1,7 @@
 package net.burrito.tutorialmod.block;
 
 import net.burrito.tutorialmod.TutorialBurritoMod;
+import net.burrito.tutorialmod.block.custom.SoundBlock;
 import net.burrito.tutorialmod.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -39,6 +40,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> END_SAPPHIRE_ORE = registerBlock("end_sapphire_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.END_STONE)
                     .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(2,4)));
+
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.NOTE_BLOCK)));
 
 
 

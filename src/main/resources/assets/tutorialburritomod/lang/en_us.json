@@ -2,6 +2,12 @@
   "item.tutorialburritomod.sapphire": "Sapphire",
   "item.tutorialburritomod.raw_sapphire": "Raw Sapphire",
 
+  "item.tutorialburritomod.metal_detector": "Metal Detector",
+
+  "item.tutorialburritomod.strawberry": "Strawberry",
+
+  "item.tutorialburritomod.pine_cone": "Pine Cone",
+
   "block.tutorialburritomod.sapphire_block": "Sapphire Block",
   "block.tutorialburritomod.raw_sapphire_block": "Raw Sapphire Block",
 
@@ -9,6 +15,11 @@
   "block.tutorialburritomod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
   "block.tutorialburritomod.nether_sapphire_ore": "Nether Saphire Ore",
   "block.tutorialburritomod.end_sapphire_ore": "End Sapphire Ore",
+
+  "block.tutorialburritomod.sound_block": "Sound Block",
+
+  "tooltip.tutorialburritomod.metal_detector.tooltip": "Finds valuables underground",
+  "tooltip.tutorialburritomod.sound_block.tooltip": "Makes sound when right-clicked",
 
   "creativetab.tutorial_burrito_tab": "Sapphire Tab"
 }

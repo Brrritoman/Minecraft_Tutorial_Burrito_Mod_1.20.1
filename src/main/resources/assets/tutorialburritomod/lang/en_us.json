@@ -5,5 +5,10 @@
   "block.tutorialburritomod.sapphire_block": "Sapphire Block",
   "block.tutorialburritomod.raw_sapphire_block": "Raw Sapphire Block",
 
+  "block.tutorialburritomod.sapphire_ore": "Sapphire Ore",
+  "block.tutorialburritomod.deepslate_sapphire_ore": "Deepslate Sapphire Ore",
+  "block.tutorialburritomod.nether_sapphire_ore": "Nether Saphire Ore",
+  "block.tutorialburritomod.end_sapphire_ore": "End Sapphire Ore",
+
   "creativetab.tutorial_burrito_tab": "Sapphire Tab"
 }

@@ -18,10 +18,8 @@ import org.slf4j.Logger;
 @Mod(TutorialBurritoMod.MOD_ID)
 public class TutorialBurritoMod
 {
-    // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "tutorialburritomod";
-    // Directly reference a slf4j logger
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public TutorialBurritoMod(FMLJavaModLoadingContext context)
     {

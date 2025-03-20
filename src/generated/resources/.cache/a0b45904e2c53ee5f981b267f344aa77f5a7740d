@@ -1,0 +1,8 @@
+// 1.20.1	2025-03-20T12:56:49.006248	Tags for minecraft:block mod id tutorialburritomod
+6eacbe215089aba152ea4da9811f86e7ad7f0e77 data/forge/tags/blocks/needs_netherite_tool.json
+333c07f131cebdaf9d134da651cca12aba1abf63 data/minecraft/tags/blocks/mineable/axe.json
+af0377e6946bfb516d849a1725e97ca1a2f12057 data/minecraft/tags/blocks/mineable/pickaxe.json
+6ed031bb8fd0aa52a94f95a9a5f38787b4dd04b9 data/minecraft/tags/blocks/needs_diamond_tool.json
+774b01beebd2ee9da30c3c917f8257e80f8c4493 data/minecraft/tags/blocks/needs_iron_tool.json
+e38af87a12bd4edd234ea6a9e47e9abdd024adfb data/minecraft/tags/blocks/needs_stone_tool.json
+f7855619a50152a7616d7ba30e3a49b4bb097899 data/tutorialburritomod/tags/blocks/metal_detector_valuables.json

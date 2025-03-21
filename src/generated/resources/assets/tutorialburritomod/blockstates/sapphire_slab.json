@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorialburritomod:block/sapphire_slab"
+    },
+    "type=double": {
+      "model": "tutorialburritomod:block/sapphire_block"
+    },
+    "type=top": {
+      "model": "tutorialburritomod:block/sapphire_slab_top"
+    }
+  }
+}

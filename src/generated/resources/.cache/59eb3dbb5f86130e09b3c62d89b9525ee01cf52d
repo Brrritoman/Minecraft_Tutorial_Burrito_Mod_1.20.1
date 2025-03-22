@@ -1,4 +1,5 @@
-// 1.20.1	2025-03-21T01:12:10.1208479	Loot Tables
+// 1.20.1	2025-03-21T23:12:35.5673421	Loot Tables
+7cc06aee0845bbfd753e4d634430ce3556e9684b data/tutorialburritomod/loot_tables/blocks/corn_crop.json
 de55e016cb5d6594e995862cadd27a59c7524f96 data/tutorialburritomod/loot_tables/blocks/deepslate_sapphire_ore.json
 9c94908bb745532f37e771e8fa2b3ae6c3f5587a data/tutorialburritomod/loot_tables/blocks/end_sapphire_ore.json
 c371fe1e25d91bbb8d8c0cd252d360e66548786f data/tutorialburritomod/loot_tables/blocks/nether_sapphire_ore.json
@@ -15,3 +16,4 @@ d65af55ed1cb131f4e4e011e248f437d9f096760 data/tutorialburritomod/loot_tables/blo
 5ee0757373a158c31aa9791283ab70ca2cd91e5e data/tutorialburritomod/loot_tables/blocks/sapphire_trapdoor.json
 fd8b4ce6ba84d615fced7a10809c614c83f72b78 data/tutorialburritomod/loot_tables/blocks/sapphire_wall.json
 03a18733cfdec67cd0ee6e6e835809278a350e3f data/tutorialburritomod/loot_tables/blocks/sound_block.json
+a3e2bfbf34a5ee03038bfa751b793524735a89ba data/tutorialburritomod/loot_tables/blocks/strawberry_crop.json

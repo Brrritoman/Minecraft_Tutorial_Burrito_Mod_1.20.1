@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import net.burrito.tutorialburritomod.block.ModBlocks;
 import net.burrito.tutorialburritomod.item.ModCreativeModeTabs;
 import net.burrito.tutorialburritomod.item.ModItems;
+import net.burrito.tutorialburritomod.loot.ModLootModifiers;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -31,6 +32,9 @@ public class TutorialBurritoMod
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        //Register loot table modifiers
+        ModLootModifiers.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

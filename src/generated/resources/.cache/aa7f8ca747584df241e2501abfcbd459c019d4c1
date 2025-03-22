@@ -1,0 +1,6 @@
+// 1.20.1	2025-03-21T20:42:53.8926076	Global Loot Modifiers : tutorialburritomod
+ab85f01f5f3542dae620c1e07dfd9d13ad269f5f data/forge/loot_modifiers/global_loot_modifiers.json
+4b07f10c27e88aaaff9addb2bae294f7d7f523a8 data/tutorialburritomod/loot_modifiers/metal_detector_from_jungle_temples.json
+03214161f554001cd0c8f6eb1e6e685753bae03c data/tutorialburritomod/loot_modifiers/metal_detector_from_suspicious_sand.json
+48f0e192ea29f2d1a04ba4a854ae82110314351e data/tutorialburritomod/loot_modifiers/pine_cone_from_creeper.json
+7249fc643534792f12465bfc15dd709580cf7c67 data/tutorialburritomod/loot_modifiers/pine_cone_from_grass.json

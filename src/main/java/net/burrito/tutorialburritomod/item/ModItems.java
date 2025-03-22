@@ -1,8 +1,10 @@
 package net.burrito.tutorialburritomod.item;
 
 import net.burrito.tutorialburritomod.TutorialBurritoMod;
+import net.burrito.tutorialburritomod.block.ModBlocks;
 import net.burrito.tutorialburritomod.item.custom.FuelItem;
 import net.burrito.tutorialburritomod.item.custom.MetalDetectorItem;
+import net.burrito.tutorialburritomod.item.custom.ModArmorItem;
 import net.minecraft.world.item.*;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -36,11 +38,25 @@ public class ModItems
     public static final RegistryObject<Item> SAPPHIRE_HOE = ITEMS.register("sapphire_hoe",
             () -> new HoeItem(ModToolTiers.SAPPHIRE, 0, 0, new Item.Properties()));
 
-    public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
-            () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
-
     public static final RegistryObject<Item> PINE_CONE = ITEMS.register("pine_cone",
             () -> new FuelItem(new Item.Properties(), 400));
+    public static final RegistryObject<Item> STRAWBERRY_SEEDS = ITEMS.register("strawberry_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.STRAWBERRY_CROP.get(), new Item.Properties()));
+    public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
+            () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
+    public static final RegistryObject<Item> CORN_SEEDS = ITEMS.register("corn_seeds",
+            () -> new ItemNameBlockItem(ModBlocks.CORN_CROP.get(), new Item.Properties()));
+    public static final RegistryObject<Item> CORN = ITEMS.register("corn",
+            () -> new Item(new Item.Properties().food(ModFoods.CORN)));
+
+    public static final RegistryObject<Item> SAPPHIRE_HELMET = ITEMS.register("sapphire_helmet",
+            () -> new ModArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> SAPPHIRE_CHESTPLATE = ITEMS.register("sapphire_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> SAPPHIRE_LEGGINGS = ITEMS.register("sapphire_leggings",
+            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots",
+            () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

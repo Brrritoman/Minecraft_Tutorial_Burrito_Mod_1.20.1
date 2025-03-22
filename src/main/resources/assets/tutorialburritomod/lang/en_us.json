@@ -5,15 +5,23 @@
   "item.tutorialburritomod.metal_detector": "Metal Detector",
   "item.tutorialburritomod.sapphire_staff": "Sapphire Staff",
 
+  "item.tutorialburritomod.pine_cone": "Pine Cone",
+
+  "item.tutorialburritomod.strawberry_seeds": "Strawberry Seeds",
+  "item.tutorialburritomod.strawberry": "Strawberry",
+  "item.tutorialburritomod.corn_seeds": "Corn Seeds",
+  "item.tutorialburritomod.corn": "Corn",
+
   "item.tutorialburritomod.sapphire_sword": "Sapphire Sword",
   "item.tutorialburritomod.sapphire_pickaxe": "Sapphire Pickaxe",
   "item.tutorialburritomod.sapphire_axe": "Sapphire Axe",
   "item.tutorialburritomod.sapphire_shovel": "Sapphire Shovel",
   "item.tutorialburritomod.sapphire_hoe": "Sapphire Hoe",
 
-  "item.tutorialburritomod.strawberry": "Strawberry",
-
-  "item.tutorialburritomod.pine_cone": "Pine Cone",
+  "item.tutorialburritomod.sapphire_helmet": "Sapphire Helmet",
+  "item.tutorialburritomod.sapphire_chestplate": "Sapphire Chestplate",
+  "item.tutorialburritomod.sapphire_leggings": "Sapphire Leggings",
+  "item.tutorialburritomod.sapphire_boots": "Sapphire Boots",
 
   "block.tutorialburritomod.sapphire_block": "Sapphire Block",
   "block.tutorialburritomod.raw_sapphire_block": "Raw Sapphire Block",
@@ -25,15 +33,15 @@
 
   "block.tutorialburritomod.sound_block": "Sound Block",
 
-  "item.tutorialburritomod.sapphire_stairs": "Sapphire Stairs",
-  "item.tutorialburritomod.sapphire_slab": "Sapphire Slab",
-  "item.tutorialburritomod.sapphire_button": "Sapphire Button",
-  "item.tutorialburritomod.sapphire_pressure_plate": "Sapphire Pressure Plate",
-  "item.tutorialburritomod.sapphire_fence": "Sapphire Fence",
-  "item.tutorialburritomod.sapphire_fence_gate": "Sapphire Fence Gate",
-  "item.tutorialburritomod.sapphire_wall": "Sapphire Wall",
-  "item.tutorialburritomod.sapphire_door": "Sapphire Door",
-  "item.tutorialburritomod.sapphire_trapdoor": "Sapphire Trapdoor",
+  "block.tutorialburritomod.sapphire_stairs": "Sapphire Stairs",
+  "block.tutorialburritomod.sapphire_slab": "Sapphire Slab",
+  "block.tutorialburritomod.sapphire_button": "Sapphire Button",
+  "block.tutorialburritomod.sapphire_pressure_plate": "Sapphire Pressure Plate",
+  "block.tutorialburritomod.sapphire_fence": "Sapphire Fence",
+  "block.tutorialburritomod.sapphire_fence_gate": "Sapphire Fence Gate",
+  "block.tutorialburritomod.sapphire_wall": "Sapphire Wall",
+  "block.tutorialburritomod.sapphire_door": "Sapphire Door",
+  "block.tutorialburritomod.sapphire_trapdoor": "Sapphire Trapdoor",
 
   "tooltip.tutorialburritomod.metal_detector.tooltip": "Finds valuables underground",
   "tooltip.tutorialburritomod.sound_block.tooltip": "Makes sound when right-clicked",

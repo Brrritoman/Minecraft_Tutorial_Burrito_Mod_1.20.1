@@ -6,6 +6,7 @@
   "item.tutorialburritomod.sapphire_staff": "Sapphire Staff",
 
   "item.tutorialburritomod.pine_cone": "Pine Cone",
+  "item.tutorialburritomod.catmint": "Catmint",
 
   "item.tutorialburritomod.strawberry_seeds": "Strawberry Seeds",
   "item.tutorialburritomod.strawberry": "Strawberry",
@@ -45,6 +46,10 @@
 
   "tooltip.tutorialburritomod.metal_detector.tooltip": "Finds valuables underground",
   "tooltip.tutorialburritomod.sound_block.tooltip": "Makes sound when right-clicked",
+
+  "entity.minecraft.villager.tutorialburritomod.soundmaster": "Sound Master",
+
+  "sounds.tutorialburritomod.metal_detector_found_ore": "Metal Detector Jingle",
 
   "creativetab.tutorial_burrito_tab": "Sapphire Tab"
 }

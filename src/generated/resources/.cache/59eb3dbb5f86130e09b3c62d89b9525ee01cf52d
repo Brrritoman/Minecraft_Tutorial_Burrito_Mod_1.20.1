@@ -1,8 +1,10 @@
-// 1.20.1	2025-03-21T23:12:35.5673421	Loot Tables
+// 1.20.1	2025-03-24T15:25:03.6098843	Loot Tables
+3649344623edd4843a82a745217993916471cea9 data/tutorialburritomod/loot_tables/blocks/catmint.json
 7cc06aee0845bbfd753e4d634430ce3556e9684b data/tutorialburritomod/loot_tables/blocks/corn_crop.json
 de55e016cb5d6594e995862cadd27a59c7524f96 data/tutorialburritomod/loot_tables/blocks/deepslate_sapphire_ore.json
 9c94908bb745532f37e771e8fa2b3ae6c3f5587a data/tutorialburritomod/loot_tables/blocks/end_sapphire_ore.json
 c371fe1e25d91bbb8d8c0cd252d360e66548786f data/tutorialburritomod/loot_tables/blocks/nether_sapphire_ore.json
+bbd12055e53568aa366f77e3fd3fbd9763ef2641 data/tutorialburritomod/loot_tables/blocks/potted_catmint.json
 6c4015f06e456d8db79f6d51d0834ea4d9dc5854 data/tutorialburritomod/loot_tables/blocks/raw_sapphire_block.json
 d09c22f572364d2f4b2b80c361320c0737b48560 data/tutorialburritomod/loot_tables/blocks/sapphire_block.json
 a47b1ae7835f72cd3bc1d8798d676f2ab8c5285a data/tutorialburritomod/loot_tables/blocks/sapphire_button.json

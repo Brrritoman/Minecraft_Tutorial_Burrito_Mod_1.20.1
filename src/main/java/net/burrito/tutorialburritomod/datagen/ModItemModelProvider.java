@@ -54,17 +54,18 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.SAPPHIRE_SHOVEL);
         handheldItem(ModItems.SAPPHIRE_HOE);
 
+        trimmedArmorItem(ModItems.SAPPHIRE_HELMET);
+        trimmedArmorItem(ModItems.SAPPHIRE_CHESTPLATE);
+        trimmedArmorItem(ModItems.SAPPHIRE_LEGGINGS);
+        trimmedArmorItem(ModItems.SAPPHIRE_BOOTS);
+
         simpleItem(ModItems.PINE_CONE);
+        simpleBlockItemBlockTexture(ModBlocks.CATMINT);
 
         simpleItem(ModItems.STRAWBERRY_SEEDS);
         simpleItem(ModItems.STRAWBERRY);
         simpleItem(ModItems.CORN_SEEDS);
         simpleItem(ModItems.CORN);
-
-        trimmedArmorItem(ModItems.SAPPHIRE_HELMET);
-        trimmedArmorItem(ModItems.SAPPHIRE_CHESTPLATE);
-        trimmedArmorItem(ModItems.SAPPHIRE_LEGGINGS);
-        trimmedArmorItem(ModItems.SAPPHIRE_BOOTS);
 
         simpleBlockItem(ModBlocks.SAPPHIRE_DOOR);
 
@@ -143,6 +144,12 @@ public class ModItemModelProvider extends ItemModelProvider {
     public void evenSimplerBlockItem(RegistryObject<Block> block) {
         this.withExistingParent(TutorialBurritoMod.MOD_ID + ":" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath(),
                 modLoc("block/" + ForgeRegistries.BLOCKS.getKey(block.get()).getPath()));
+    }
+
+    private ItemModelBuilder simpleBlockItemBlockTexture(RegistryObject<Block> item) {
+        return withExistingParent(item.getId().getPath(),
+                new ResourceLocation("item/generated")).texture("layer0",
+                new ResourceLocation(TutorialBurritoMod.MOD_ID, "block/" + item.getId().getPath()));
     }
 
     private ItemModelBuilder handheldItem(RegistryObject<Item> item) {

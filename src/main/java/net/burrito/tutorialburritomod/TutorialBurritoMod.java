@@ -5,7 +5,11 @@ import net.burrito.tutorialburritomod.block.ModBlocks;
 import net.burrito.tutorialburritomod.item.ModCreativeModeTabs;
 import net.burrito.tutorialburritomod.item.ModItems;
 import net.burrito.tutorialburritomod.loot.ModLootModifiers;
+import net.burrito.tutorialburritomod.sound.ModSounds;
+import net.burrito.tutorialburritomod.villager.ModVillagers;
 import net.minecraft.world.item.CreativeModeTabs;
+import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.block.FlowerPotBlock;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -33,8 +37,12 @@ public class TutorialBurritoMod
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
-        //Register loot table modifiers
+        //Register mod loot table modifiers
         ModLootModifiers.register(modEventBus);
+        ModVillagers.register(modEventBus);
+
+        //Register mod sounds
+        ModSounds.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -50,7 +58,9 @@ public class TutorialBurritoMod
 
     private void commonSetup(final FMLCommonSetupEvent event)
     {
-
+        event.enqueueWork(() -> {
+            ((FlowerPotBlock) Blocks.FLOWER_POT).addPlant(ModBlocks.CATMINT.getId(), ModBlocks.POTTED_CATMINT);
+        });
     }
 
     // Add the example block item to the building blocks tab

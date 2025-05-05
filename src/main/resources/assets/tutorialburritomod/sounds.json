@@ -34,5 +34,13 @@
     "sounds": [
       "tutorialburritomod:sound_block_fall"
     ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "tutorialburritomod:bar_brawl",
+        "stream": true
+      }
+    ]
   }
 }
